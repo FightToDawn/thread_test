@@ -1,7 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
 
-option(USE_MYMATH "是否使用动态库MathFunctions ?" ON)
-
 # 可以配合thread_config.h.in文件 实现传入版本号到代码中
 project(thread_test VERSION 2.15)
 configure_file(thread_config.h.in thread_config.h)

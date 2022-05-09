@@ -1,0 +1,4 @@
+// the configured options and settings for Tutorial
+#define thread_test_VERSION_MAJOR @thread_test_VERSION_MAJOR@
+#define thread_test_VERSION_MINOR @thread_test_VERSION_MINOR@
+#cmakedefine USE_MYMATH
